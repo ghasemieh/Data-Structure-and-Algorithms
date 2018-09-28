@@ -3,7 +3,7 @@ package DijkstraAgorithm;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Vertex implements Comparable<Vertex>{
+public class Vertex implements Comparable<Vertex> {
 	private String name;
 	private double distance = Double.MAX_VALUE;
 	private Vertex predecessor;
@@ -34,6 +34,7 @@ public class Vertex implements Comparable<Vertex>{
 	public void setDistance(double distance) {
 		this.distance = distance;
 	}
+
 	public String toString() {
 		return this.getName();
 	}
