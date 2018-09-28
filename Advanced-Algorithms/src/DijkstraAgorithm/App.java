@@ -10,7 +10,7 @@ public class App {
 		Vertex v4 = new Vertex("E");
 		
 		v0.addNeighbours(new Edge(1,v0,v1));
-		v0.addNeighbours(new Edge(3,v0,v2));
+		v0.addNeighbours(new Edge(4,v0,v2));
 		v1.addNeighbours(new Edge(1,v1,v2));
 		
 		DijkstraAlgorithm d = new DijkstraAlgorithm();
