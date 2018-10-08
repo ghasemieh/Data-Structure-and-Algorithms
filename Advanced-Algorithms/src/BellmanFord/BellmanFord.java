@@ -13,7 +13,7 @@ public class BellmanFord {
 
 	public void BellmanFord(Vertex sourceVertex) {
 		sourceVertex.setDistance(0);
-		for (int i = 0; i < vertexList.size(); ++i) {
+		for (int i = 0; i < vertexList.size()-1; ++i) {
 			for (Edge e : edgeList) {
 				Vertex u = e.getStartVertex();
 				Vertex v = e.getTargetVertex();
